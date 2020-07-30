@@ -1,0 +1,13 @@
+.cabecalho{
+    height: 200px;
+}
+
+.cabecalho h2{
+    display: inline;
+    font-size: 13pt;
+    margin-left: 5px;
+}
+
+.titulo {
+    font-size: 18pt;
+}
