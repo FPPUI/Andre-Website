@@ -1,13 +1,30 @@
+
+
 .cabecalho{
-    height: 200px;
+    display: grid;
+    grid-auto-columns: 1fr;
+
+    padding: 10px;
+    border: 1px solid #15DA87;
+    width: 100vw;
+    background: #15DA87;
+    
 }
 
-.cabecalho h2{
-    display: inline;
+
+#titulo {
+    padding: 8px;
+    font-size: 32pt;
+    font-weight: 300;
+    justify-self: self-start;
+
+    
+}
+
+#submenu {
     font-size: 13pt;
-    margin-left: 5px;
-}
+    margin-right: 20px;
+    justify-self: right;
+    right: 10px;
 
-.titulo {
-    font-size: 18pt;
 }

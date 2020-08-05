@@ -1,0 +1,62 @@
+#boxes {
+    display: grid;
+    grid-template-areas: 
+        "a b c";
+    align-items: start;
+
+    justify-items: center;    
+    
+}
+.box{
+    display: grid;
+
+    position: relative;
+    
+    min-width: 300px;
+    min-height: 200px;
+    
+    max-width: 400px;
+    max-height: 300px;
+    
+    
+    top: 12vh;
+
+    background: #FFFFFF;
+    border: 1px solid #15DA87;
+    box-sizing: border-box;
+    border-radius: 7px;
+
+    grid-area: a;
+}
+
+.box h3 {
+
+    position: relative;
+
+    font-family: Aleo;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 32pt;
+    
+    text-align: center;
+
+    color: #282323;
+
+
+    align-self: center;
+}
+
+.linha-vertical {
+    height: 800px;/*Altura da linha*/
+    width: 1px;
+    margin-top: 50px;
+    margin-right: 5%;
+    left: 50%;
+    background-color: #000000;
+    /* Adiciona borda esquerda na div como ser fosse uma linha.*/
+    grid-area: b;
+}
+
+#second_box {
+    grid-area: c;
+}
